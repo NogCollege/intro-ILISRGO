@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCSS Guide Task</title>
+    <link rel="stylesheet" href="css/main.css"> <!-- Подключаем скомпилированный файл -->
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="main-header__logo">Logo</div>
+            <nav class="main-header__nav">
+                <a href="#" class="main-header__link">Главная</a>
+                <a href="#" class="main-header__link">О нас</a>
+                <a href="#" class="main-header__link">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero__title">Добро пожаловать на наш сайт</h1>
+            <p class="hero__text">Это простой пример секции с текстом для вашего задания.</p>
+            <button class="hero__button">Узнать больше</button>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="features__title">Наши преимущества</h2>
+            <div class="features__item">
+                <img src="img/icon-1.svg" alt="Icon" class="features__icon">
+                <h3 class="features__subtitle">Качество</h3>
+                <p class="features__text">Мы используем только лучшие материалы.</p>
+            </div>
+            <div class="features__item">
+                <img src="img/icon-2.svg" alt="Icon" class="features__icon">
+                <h3 class="features__subtitle">Скорость</h3>
+                <p class="features__text">Быстрая доставка и выполнение работ.</p>
+            </div>
+            <div class="features__item">
+                <img src="img/icon-3.svg" alt="Icon" class="features__icon">
+                <h3 class="features__subtitle">Поддержка</h3>
+                <p class="features__text">Наша служба поддержки всегда на связи.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p class="main-footer__copyright">© 2025 Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
